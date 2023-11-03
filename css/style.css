@@ -1,0 +1,76 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
+
+.menu{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.24px;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1)
+}
+
+a:link{
+    color: black;
+}
+
+.menu__logo{
+    text-decoration: none;
+    color: #05A88D;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.36px;
+}
+
+.buttons{
+    color: #05A88D;
+}
+
+.ul__buttons{
+    display: flex;
+    margin-right: 71px;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.24px;
+}
+
+.menu__sign-up{
+    text-decoration: none;
+    margin-right: 91px;
+    border-radius: 3px;
+    border: 1px solid #05A88D;
+    padding: 12.5px 21.5px;
+    color: #05A88D
+}
+
+.menu__login{
+    text-decoration: none;
+    color: #05A88D
+}
+
+.products{
+    color: #05A88D;
+}
+
+a:hover{
+    color: #05A88D; 
+}
+
